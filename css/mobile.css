@@ -1,0 +1,96 @@
+@media (max-width: 768px) {
+  .navv {
+    padding: 0.5rem 0;
+    flex-direction: column;
+    gap: 0;
+    align-items: flex-start;
+  }
+
+  .navv a {
+    height: 2.5rem;
+    border: none;
+    justify-content: flex-start;
+  }
+
+  /* My info */
+  #target {
+    padding: 6.5rem 6.5rem 3.2rem 2.5rem;
+  }
+
+  #personal-info {
+    padding: 6.5rem 6.5rem 3.2rem 2.5rem;
+  }
+
+  /* Job-info */
+  #job-info {
+    width: 100%;
+    margin: auto;
+  }
+
+  .job-info {
+    margin-left: 1rem;
+  }
+
+  .job-info-nhom {
+    width: 80% !important;
+    margin: auto;
+  }
+
+  .job-info-card {
+    width: 100%;
+  }
+
+  .hobby-icon {
+    margin: 1rem 1rem;
+  }
+
+  .job-info-content i {
+    font-size: 5vw;
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .hobby-icon {
+    margin: 0;
+  }
+
+  .hobby-text {
+    padding: 0;
+    margin: 2rem 0;
+  }
+
+  /* Chứng chỉ - Giải thưởng */
+  #certificate {
+    margin: auto 3rem;
+  }
+
+  .line-certificate {
+    display: none;
+  }
+
+  .certificate-a,
+  .certificate-b,
+  .certificate-c {
+    width: 100%;
+  }
+
+  .certificate-a,
+  .certificate-b {
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  .certificate-b {
+    border-left: none;
+  }
+
+  /* Dự án */
+  #project {
+    margin: auto;
+    overflow: auto;
+    margin: auto 3rem;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+}

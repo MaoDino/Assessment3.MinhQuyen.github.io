@@ -1,0 +1,51 @@
+@media (max-width: 992px) {
+  /* Navbar */
+  .nav-bar-img {
+    display: none;
+  }
+
+  .navv {
+    gap: 4rem;
+    margin: 0 auto;
+  }
+
+  .them-vach {
+    border-right: 1px solid rgba(52, 58, 64, 0.2);
+  }
+
+  /* My info */
+  .target {
+    width: 20rem;
+    padding: 0 2rem;
+    position: relative;
+  }
+
+  .about h2 {
+    font-size: 1.5rem;
+  }
+
+  .info p {
+    line-height: 1.1;
+  }
+
+  /* Job-info */
+  .job-info-card {
+    width: 100%;
+  }
+
+  .job-info-content i {
+    font-size: 2vw;
+    width: 4vw;
+    height: 4vw;
+  }
+
+  /* Chứng chỉ - Giải thưởng */
+
+  /* Dự án */
+  #project {
+    margin: auto 3rem;
+  }
+
+  .project {
+  }
+}
